@@ -7,6 +7,5 @@ CREATE TABLE `taberogu_infos` (
   `tel` varchar(100) DEFAULT NULL COMMENT '店の電話番号',
   `address` varchar(100) DEFAULT NULL COMMENT '住所',
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '作成日時',
-  `updated_at` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新日時',
   PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
